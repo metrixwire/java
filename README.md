@@ -51,7 +51,7 @@ Read from system properties, with environment-variable fallbacks:
 | System property | Env fallback | Default | Meaning |
 |---|---|---|---|
 | `-Dmetrixwire.apiKey` | `METRIXWIRE_KEY` | *(none)* | Your project API key. **Required** — without it the SDK stays disabled. |
-| `-Dmetrixwire.endpoint` | `METRIXWIRE_ENDPOINT` | `http://localhost:3000/ingest` | Ingest URL. A base URL is fine — `/ingest` is appended if missing. |
+| `-Dmetrixwire.endpoint` | `METRIXWIRE_ENDPOINT` | `https://metrixwire.com/ingest` | Ingest URL. A base URL is fine — `/ingest` is appended if missing. |
 | `-Dmetrixwire.enabled` | `METRIXWIRE_ENABLED` | `true` | Master switch. Set to `false` to disable entirely. |
 
 ```bash

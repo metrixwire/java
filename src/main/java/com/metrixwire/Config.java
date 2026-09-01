@@ -8,7 +8,7 @@ package com.metrixwire;
  */
 public final class Config {
 
-    static final String DEFAULT_ENDPOINT = "http://localhost:3000/ingest";
+    static final String DEFAULT_ENDPOINT = "https://metrixwire.com/ingest";
     static final int FLUSH_INTERVAL_MS = 5000;
     static final int TIMEOUT_MS = 3000;
     static final int MAX_BATCH = 20;
