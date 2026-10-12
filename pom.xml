@@ -6,7 +6,7 @@
 
   <groupId>com.metrixwire</groupId>
   <artifactId>agent</artifactId>
-  <version>0.3.0</version>
+  <version>1.3.0</version>
   <packaging>jar</packaging>
 
   <name>MetrixWire Java Agent</name>
